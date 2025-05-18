@@ -129,7 +129,7 @@ router.post('/forgot-password', [
         await user.save();
 
         const mailOptions = {
-            from: 'fitnessgeek0805@gmail.com',
+            from: 'connect.blogify@gmail.com',
             to: email,
             subject: 'Password Reset OTP',
             text: `Your OTP for password reset is: ${otp}`
