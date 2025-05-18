@@ -10,7 +10,7 @@ const port = process.env.PORT || 5000;
 
 // Middleware
 app.use(cors({
-  origin: 'https://3b6fa531.blogifyfrontend.pages.dev/', // frontend URL
+  origin: 'https://3b6fa531.blogifyfrontend.pages.dev', // frontend URL
   credentials: true // if you're using cookies, optional for JWT
 }));
 app.use(express.json());
