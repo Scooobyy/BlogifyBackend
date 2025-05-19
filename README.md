@@ -28,6 +28,10 @@ A complete blog editing platform with rich text editing, authentication, dashboa
 ## 📁 Project Structure
 backend/allfiles --------for serverside
 for client side:-
+
+
+The website is already Deployed using Render and CloudFlare:-https://aa816ed1.blogifyfrontend.pages.dev
+Backend Url:-https://blogifybackend-ti05.onrender.com
 src/components
 src/context
 src/pages
